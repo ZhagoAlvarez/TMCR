@@ -4,7 +4,6 @@
     }
     #image {
         position: relative;
-        left: 50px;
     }
     #footerContainer {
         flex-direction: row;
@@ -12,7 +11,7 @@
   }
   
   #TMCRHeader {
-    background-color: #e2ede7;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -61,7 +60,7 @@
 }
 
 #footerContainer {
-    background-color: #e2ede7;
+    background-color: white;
     color: black;
     display: flex;
     flex-wrap: wrap;
