@@ -1,0 +1,79 @@
+@media only screen and (max-width: 900px) {
+    #title {
+        display: none;
+    }
+    #footerContainer {
+        flex-direction: row;
+    }
+  }
+  
+  #TMCRHeader {
+    background-color: #0b0c0c;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+#title {
+    color:white;
+    text-decoration: none;
+}
+
+#row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+}
+
+#boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Box {
+    text-align: center;
+    align-items: stretch;
+    width: 300px;
+    height: 280px;
+    box-shadow: 10px 10px 10px 10px rgb(209, 214, 216);
+    margin-bottom: 30px;
+    padding: 40px 10px 10px 10px;
+}
+
+#footerContainer {
+    background-color: #0b0c0c;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.k {
+    color: gray;
+}
+
+.footerBox {
+    margin-bottom: 30px;
+    padding: 40px 10px 10px 10px;
+    width: 280px;
+}
+
+
+
+
