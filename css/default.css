@@ -2,23 +2,31 @@
     #title {
         display: none;
     }
+    #image {
+        position: relative;
+        left: 50px;
+    }
     #footerContainer {
         flex-direction: row;
     }
   }
   
   #TMCRHeader {
-    background-color: #0b0c0c;
+    background-color: #e2ede7;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-around;
     margin: auto;
     align-items: center;
+    /* background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; */
 }
 
 #title {
-    color:white;
+    color:rgb(6, 6, 6);
     text-decoration: none;
 }
 
@@ -47,14 +55,14 @@
     align-items: stretch;
     width: 300px;
     height: 280px;
-    box-shadow: 10px 10px 10px 10px rgb(209, 214, 216);
+    box-shadow: 5px 5px 5px 5px rgb(209, 214, 216);
     margin-bottom: 30px;
     padding: 40px 10px 10px 10px;
 }
 
 #footerContainer {
-    background-color: #0b0c0c;
-    color: white;
+    background-color: #e2ede7;
+    color: black;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -65,7 +73,7 @@
 }
 
 .k {
-    color: gray;
+    color: rgb(43, 41, 41);
 }
 
 .footerBox {
