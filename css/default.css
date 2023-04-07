@@ -81,6 +81,38 @@
     width: 280px;
 }
 
+#map {
+    height:  50%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fab {
+    width: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.social {
+    position: fixed;
+    left: -30px;
+    top: 5px;
+}
+.social ul{
+    list-style: none;
+}
+.social a{
+    display: inline-block;
+    color: rgb(43, 41, 41);
+    text-decoration: none;
+    padding: 5px 10px;
+    z-index: 0;
+    transition: 0.1s ease;
+}
+
+
 
 
 
