@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 500px) {
     #title {
         display: none;
     }
@@ -93,12 +93,11 @@ html, body {
 .fab {
     width: 30px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 .social {
     position: fixed;
     left: -30px;
-    top: 5px;
 }
 .social ul{
     list-style: none;
