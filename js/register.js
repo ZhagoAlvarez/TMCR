@@ -11,13 +11,7 @@ function registrar(){
             edad--;
         }
         
-        Output = 
-          "Señor(a): "+nombre+" por favor compruebe a continuación sus datos: "+"\n"+
-          "Correo Electrónico: "+correoElectrónico+"\n"+
-          "Edad: "+edad+"\n"+
-          " "+"\n"+
-          "Si los datos están completos y correctos lo contactaremos lo mas pronto posible. Gracias por confiar en nuestro servicio."
-          ;
+        Output = "Si los datos están completos y correctos lo contactaremos lo mas pronto posible. Gracias por confiar en nuestro servicio.";
 
      alert(Output);
   }
